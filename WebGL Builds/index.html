@@ -42,14 +42,14 @@
       	<div class="game-home wf-section">
             <div class="game-main" style="display: flex; width: 100vw; height: 100vh;">
                <div class="game-side-menu" style="width: 40%;">
-                  <img src="logoP.png" style="width: 100%;" alt="" class="game-logo">
+                  <img src="logoPvp.png" style="width: 100%;" alt="" class="game-logo">
                   <!-- <div class="game-menu-buttons">
                      <a data-w-id="51cacd4f-400b-40c5-0078-af4f57add2a5" href="#" class="button min-width w-button">login</a>
                      <a href="#" class="button min-width w-button">play</a>
                      <a href="#" class="button min-width w-button">leaderboard</a>
                   </div> -->
                </div>
-               <div class="game-cover" style="background-image: url('bg-image.png'); background-size: cover;">
+               <div class="game-cover" style="background-image: url('bg-imageP.png'); background-size: cover;">
                   <div data-delay="4000" data-animation="fade" class="loading-tips w-slider" data-autoplay="true" data-easing="ease-in-out" data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3" data-duration="500" data-infinite="true" role="region" aria-label="carousel">
                      <div class="w-slider-mask" id="w-slider-mask-0">
                         <!-- <div class="w-slide" aria-label="1 of 2" role="group" style="transform: translateX(-0.112px); opacity: 1; z-index: 138; visibility: hidden;" aria-hidden="true">
@@ -80,7 +80,7 @@
             <div class="game-loading">
                <div class="loading-bar" id="unity-loading-bar">
                   <div class="progress" id="unity-progress-bar-empty">
-                     <div id="unity-progress-bar-full" style = "background:#009453"></div>
+                     <div id="unity-progress-bar-full" style = "background:#0053B7"></div>
                   </div>
                   <div class="loading-status">LOADING</div> 
                </div>   
@@ -89,12 +89,12 @@
       </div>
 
       <script>
-         var texts = ["One of these days, Travis is going to meet that line. And cross it. For his sake and our entertainment, we'll all be there for the ride. What an absolute monster of content for what, 20, 25 years? Been watching Pastrana since the 90's", 
-                     "This is loading tip line 1", 
-                     "This is loading tip line 2", 
-                     "This is loading tip line 3", 
-                     "This is loading tip line 4", 
-                     "This is loading tip line 5"];
+         var texts = ["$JUICE AND $FIGHT. GOOD FOR PURCHASING $GEAR, AND OTHER FUN THINGS. COLLECT THE CASH MONEY AND USE IT TO DESTROY OTHER PEOPLE. :)", 
+                     "FIGHTERS HAVE DIFFERENT STATS BASED ON RARITY. IF YOU OWN A WEAKLING YOU’LL NEED $GEAR AND A LONGER TERM STAKE TO IMPROVE THEIR STATS.", 
+                     "FIGHTER EVOLUTION IS A COOL THING WE LET YOU DO. ENABLE YOUR GAME ACCOUNT WITH WEB3 TOKEN $FIGHT TO WATCH YOUR FIGHTER EVOLVE.", 
+                     "CFC IS A WEB2 PLATFORM WITH WEB3 ELEMENTS! WOW! IT’S JUST LIKE AN ANCIENT INTERNET GAMES ARCADE, BUT YOU CAN REAP REAL-LIFE REWARDS.", 
+                     "NOT GETTING THE MOST OUT OF YOUR CFC EXPERIENCE? OUR COOLEST, MOST ATTRACTIVE PLAYERS CHILL IN DISCORD WHERE EXCITING EVENTS ARE ALWAYS ON.", 
+                     "HOLDERS OF WEB3 FIGHTERS GAIN ACCESS TO EXCLUSIVE EVENTS AND REWARDS, HELD EVERY MONTH. DO A HARD LURK ON OUR DISCORD UNTIL THE NEXT ONE."];
          
          var randomIndex = Math.floor(Math.random() * texts.length);
          var dynamicText = document.getElementById("loading-tips");
@@ -106,9 +106,9 @@
       <script>var buildUrl = "Build";
          var loaderUrl = buildUrl + "/45d1cd8c7243f6a432b90f192dcbf0d4.js";
          var config = {
-           dataUrl: buildUrl + "/efb01ec52441f4a7af62a786348d4594.data.unityweb",
-           frameworkUrl: buildUrl + "/f012ac56e9704076f4cb10d8933b112f.js.unityweb",
-           codeUrl: buildUrl + "/08ac69e891a358cbd630549e77c56879.wasm.unityweb",
+           dataUrl: buildUrl + "/8a697e0ab451b2f2452fee4efa8f48a0.data.unityweb",
+           frameworkUrl: buildUrl + "/f16b72552199fa59de8dae2dea31c8bb.js.unityweb",
+           codeUrl: buildUrl + "/5435f8b05bf22eda3ce7feb43188f7d4.wasm.unityweb",
            streamingAssetsUrl: "StreamingAssets",
            companyName: "cfcinc",
            productName: "unifiedapp",
@@ -144,9 +144,9 @@
           createUnityInstance(canvas, config, (progress) => {
              progressBarFull.style.width = 100 * progress + "%";
            },{
-        dataUrl: "Build/efb01ec52441f4a7af62a786348d4594.data.unityweb",
-        frameworkUrl: "Build/f012ac56e9704076f4cb10d8933b112f.js.unityweb",
-        codeUrl: "Build/08ac69e891a358cbd630549e77c56879.wasm.unityweb",
+        dataUrl: "Build/8a697e0ab451b2f2452fee4efa8f48a0.data.unityweb",
+        frameworkUrl: "Build/f16b72552199fa59de8dae2dea31c8bb.js.unityweb",
+        codeUrl: "Build/5435f8b05bf22eda3ce7feb43188f7d4.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "cfcinc",
         productName: "unifiedapp",
